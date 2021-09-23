@@ -1,5 +1,13 @@
-# the-forge-sys
+# Disclaimer
+
+This crate is a personal project and not affiliated, associated, authorized, endorsed by, or in any way officially connected with The Forge, Inc.
+
+# Description
 Low-level Rust bindings for The Forge.
+
+Semi-automated - most of the API bindings are generated with `bindgen`. `IRay` and `IRenderer` interfaces have 100% coverage, other subsystems - not so much. Portions of the C++ APIs are implemented manually with wrappers, e.g. `src/app_wrapper.cpp`.
+
+At the moment this is a proof-of-concept crate, work in progress and far from beind production ready.
 
 ## Building
 
